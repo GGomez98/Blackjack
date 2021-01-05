@@ -8,8 +8,6 @@ function repartirCartaAJugador(){
     let cartaAlAzar=baraja[Math.floor(Math.random()*baraja.length)];
     baraja.splice(baraja.indexOf(cartaAlAzar),1)
     cartasJugador.push(cartaAlAzar);
-    console.log("Cartas del jugador:"+cartasJugador)
-    console.log("Cartas de la computadora:"+cartasComputadora)
 }
 /*Repartir una carta al azar a la computadora*/
 function repartirCartaAComputadora(){
@@ -21,6 +19,8 @@ function repartirCartaAComputadora(){
 function repartirCartas(){
     repartirCartaAJugador()
     repartirCartaAComputadora()
+    console.log("Cartas del jugador:"+cartasJugador);
+    console.log("Cartas de la computadora:"+cartasComputadora);
 }
 /*Sumar las cartas de un jugador*/
 function sumarTodo(cartas){
