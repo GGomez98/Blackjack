@@ -22,7 +22,7 @@ function repartirCartas(){
     console.log("Cartas del jugador:"+cartasJugador);
     console.log("Cartas de la computadora:"+cartasComputadora);
 }
-/*Sumar las cartas de un jugador*/
+/*Sumar las cartas de un jugador o de la computadora*/
 function sumarTodo(cartas){
     let suma = 0
     for(let numero of cartas){
