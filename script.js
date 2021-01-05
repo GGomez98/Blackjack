@@ -1,7 +1,7 @@
 /*Cartas de jugador, cartas de computadora y baraja*/
-let baraja = [1,2,3,4,5,6,7,8,9,10,11,1,2,3,4,5,6,7,8,9,10,11];
-let cartasJugador = [ ];
-let cartasComputadora = [ ];
+let baraja = [];
+let cartasJugador = [];
+let cartasComputadora = [];
 
 /*Repartir una carta al azar al jugador*/
 function repartirCartaAJugador(){
